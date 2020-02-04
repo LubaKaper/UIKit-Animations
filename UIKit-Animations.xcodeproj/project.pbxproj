@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4CD84123E9CB1C00A3A9F4 /* TransitionAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CD84023E9CB1C00A3A9F4 /* TransitionAnimationsController.swift */; };
+		8D4CD84323E9CB4B00A3A9F4 /* TransitionAnimations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CD84223E9CB4B00A3A9F4 /* TransitionAnimations.storyboard */; };
+		8D4CD84523E9D75000A3A9F4 /* PropertyAnimatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CD84423E9D75000A3A9F4 /* PropertyAnimatorController.swift */; };
+		8D4CD84723E9D76300A3A9F4 /* PropertyAnimator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CD84623E9D76300A3A9F4 /* PropertyAnimator.storyboard */; };
 		8D80C40923E755EC003FAEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C40823E755EC003FAEA6 /* AppDelegate.swift */; };
 		8D80C40B23E755EC003FAEA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C40A23E755EC003FAEA6 /* SceneDelegate.swift */; };
 		8D80C41223E755F0003FAEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D80C41123E755F0003FAEA6 /* Assets.xcassets */; };
@@ -14,9 +18,15 @@
 		8D80C41D23E75776003FAEA6 /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C41C23E75776003FAEA6 /* AnimationsTabController.swift */; };
 		8D80C41F23E75848003FAEA6 /* SampleAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C41E23E75847003FAEA6 /* SampleAnimationsController.swift */; };
 		8D80C42123E75885003FAEA6 /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C42023E75885003FAEA6 /* ConstraintsAnimationController.swift */; };
+		8D80C42323E75E77003FAEA6 /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80C42223E75E77003FAEA6 /* SampleAnimationView.swift */; };
+		8D80C42523E78EFC003FAEA6 /* ConstraintsAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D80C42423E78EFB003FAEA6 /* ConstraintsAnimation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D4CD84023E9CB1C00A3A9F4 /* TransitionAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationsController.swift; sourceTree = "<group>"; };
+		8D4CD84223E9CB4B00A3A9F4 /* TransitionAnimations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransitionAnimations.storyboard; sourceTree = "<group>"; };
+		8D4CD84423E9D75000A3A9F4 /* PropertyAnimatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimatorController.swift; sourceTree = "<group>"; };
+		8D4CD84623E9D76300A3A9F4 /* PropertyAnimator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PropertyAnimator.storyboard; sourceTree = "<group>"; };
 		8D80C40523E755EC003FAEA6 /* UIKit-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D80C40823E755EC003FAEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D80C40A23E755EC003FAEA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		8D80C41C23E75776003FAEA6 /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
 		8D80C41E23E75847003FAEA6 /* SampleAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationsController.swift; sourceTree = "<group>"; };
 		8D80C42023E75885003FAEA6 /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+		8D80C42223E75E77003FAEA6 /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
+		8D80C42423E78EFB003FAEA6 /* ConstraintsAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConstraintsAnimation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 				8D80C41C23E75776003FAEA6 /* AnimationsTabController.swift */,
 				8D80C41E23E75847003FAEA6 /* SampleAnimationsController.swift */,
 				8D80C42023E75885003FAEA6 /* ConstraintsAnimationController.swift */,
+				8D80C42223E75E77003FAEA6 /* SampleAnimationView.swift */,
+				8D80C42423E78EFB003FAEA6 /* ConstraintsAnimation.storyboard */,
+				8D4CD84023E9CB1C00A3A9F4 /* TransitionAnimationsController.swift */,
+				8D4CD84223E9CB4B00A3A9F4 /* TransitionAnimations.storyboard */,
+				8D4CD84423E9D75000A3A9F4 /* PropertyAnimatorController.swift */,
+				8D4CD84623E9D76300A3A9F4 /* PropertyAnimator.storyboard */,
 			);
 			path = "UIKit-Animations";
 			sourceTree = "<group>";
@@ -128,8 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4CD84323E9CB4B00A3A9F4 /* TransitionAnimations.storyboard in Resources */,
 				8D80C41523E755F0003FAEA6 /* LaunchScreen.storyboard in Resources */,
+				8D4CD84723E9D76300A3A9F4 /* PropertyAnimator.storyboard in Resources */,
 				8D80C41223E755F0003FAEA6 /* Assets.xcassets in Resources */,
+				8D80C42523E78EFC003FAEA6 /* ConstraintsAnimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D80C41F23E75848003FAEA6 /* SampleAnimationsController.swift in Sources */,
+				8D80C42323E75E77003FAEA6 /* SampleAnimationView.swift in Sources */,
 				8D80C40923E755EC003FAEA6 /* AppDelegate.swift in Sources */,
 				8D80C41D23E75776003FAEA6 /* AnimationsTabController.swift in Sources */,
 				8D80C40B23E755EC003FAEA6 /* SceneDelegate.swift in Sources */,
 				8D80C42123E75885003FAEA6 /* ConstraintsAnimationController.swift in Sources */,
+				8D4CD84523E9D75000A3A9F4 /* PropertyAnimatorController.swift in Sources */,
+				8D4CD84123E9CB1C00A3A9F4 /* TransitionAnimationsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

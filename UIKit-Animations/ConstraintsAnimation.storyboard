@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Constraints Animation Controller-->
+        <scene sceneID="QCJ-BU-bhb">
+            <objects>
+                <viewController storyboardIdentifier="ConstraintsAnimationController" id="ZeF-dx-Gc7" customClass="ConstraintsAnimationController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MPM-i2-imw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="mpV-Yc-Qhr">
+                                <rect key="frame" x="20" y="718" width="374" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRe-bs-9wZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Up"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdI-1U-9iQ">
+                                        <rect key="frame" x="207" y="0.0" width="167" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Down"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9ye-nz-PKI"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtV-ce-1wd">
+                                <rect key="frame" x="103.5" y="344.5" width="207" height="207"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xtV-ce-1wd" secondAttribute="height" multiplier="1:1" id="3R1-67-fYU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mpV-Yc-Qhr" firstAttribute="bottom" secondItem="5JE-1g-7po" secondAttribute="bottom" constant="-100" id="3DB-or-TDm"/>
+                            <constraint firstItem="xtV-ce-1wd" firstAttribute="width" secondItem="MPM-i2-imw" secondAttribute="width" multiplier="0.5" id="6t0-JR-b2f"/>
+                            <constraint firstItem="mpV-Yc-Qhr" firstAttribute="leading" secondItem="5JE-1g-7po" secondAttribute="leading" constant="20" id="GL2-ww-9Sl"/>
+                            <constraint firstItem="5JE-1g-7po" firstAttribute="trailing" secondItem="mpV-Yc-Qhr" secondAttribute="trailing" constant="20" id="fDd-Ff-ghF"/>
+                            <constraint firstItem="xtV-ce-1wd" firstAttribute="centerY" secondItem="MPM-i2-imw" secondAttribute="centerY" id="hES-3W-X68"/>
+                            <constraint firstItem="xtV-ce-1wd" firstAttribute="centerX" secondItem="MPM-i2-imw" secondAttribute="centerX" id="hg5-0I-BP4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5JE-1g-7po"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8GM-nP-mOX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124.6376811594203" y="151.33928571428569"/>
+        </scene>
+    </scenes>
+</document>
